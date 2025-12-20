@@ -18,6 +18,12 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: 'Roboto, Arial, sans-serif',
+    body1: {
+      fontSize: '1.125rem', // 18px
+    },
+    body2: {
+      fontSize: '1rem', // 16px
+    },
     button: {
       textTransform: 'none',
     }
